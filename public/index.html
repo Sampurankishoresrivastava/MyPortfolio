@@ -935,7 +935,7 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact_form grid">
+<!--                     <form action="" class="contact_form grid">
                         <div class="contact_inputs grid">
                             <div class="contact_content">
                                 <label for="" class="contact_label">Name</label>
@@ -960,6 +960,32 @@
                                 Send Message
                                 <i class="uil uil-message button_icon"></i>
                             </a>
+                        </div>
+                    </form> -->
+                    <form action="https://formspree.io/f/xgebzeaj" class="contact_form grid" method="POST">
+                        <div class="contact_inputs grid">
+                            <div class="contact_content">
+                                <label for="name" class="contact_label">Name</label>
+                                <input type="text" class="contact_input" name="name" required>
+                            </div>
+                            <div class="contact_content">
+                                <label for="email" class="contact_label">Email</label>
+                                <input type="email" class="contact_input" name="email" required>
+                            </div>
+                        </div>
+                        <div class="contact_content">
+                            <label for="project" class="contact_label">Project</label>
+                            <input type="text" class="contact_input" name="project" required>
+                        </div>
+                        <div class="contact_content">
+                            <label for="message" class="contact_label">Message</label>
+                            <textarea name="message" id="message" cols="0" rows="7" class="contact_input" required></textarea>
+                        </div>
+                    
+                        <div>
+                            <button type="submit" class="button button--flex">Send Message
+                                <i class="uil uil-message button_icon"></i>
+                            </button>
                         </div>
                     </form>
                 </div>
